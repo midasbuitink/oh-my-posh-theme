@@ -35,7 +35,7 @@ def edit_theme(theme):
                 continue
             
             template = "".join(template_builder)
-            theme['blocks'][block_index]['segments'][segment_index]['properties']['template'] = template
+            theme['blocks'][block_index]['segments'][segment_index]['template'] = template
 
     return theme
 
